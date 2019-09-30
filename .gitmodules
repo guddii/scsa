@@ -1,0 +1,18 @@
+[submodule "applications/catalogue"]
+	path = applications/catalogue
+	url = https://github.com/guddii/scsa-app-catalogue
+[submodule "applications/account"]
+	path = applications/account
+	url = https://github.com/guddii/scsa-app-account
+[submodule "applications/checkout"]
+	path = applications/checkout
+	url = https://github.com/guddii/scsa-app-checkout
+[submodule "libraries/styles"]
+	path = libraries/styles
+	url = https://github.com/guddii/scsa-lib-styles
+[submodule "libraries/messaging"]
+	path = libraries/messaging
+	url = https://github.com/guddii/scsa-lib-messaging
+[submodule "orchestrator/iframe"]
+	path = orchestrator/iframe
+	url = https://github.com/guddii/scsa-orc-iframe
