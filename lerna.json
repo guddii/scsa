@@ -4,5 +4,5 @@
     "libraries/**",
     "orchestrator/**"
   ],
-  "version": "independent"
+  "version": "0.0.0"
 }
