@@ -2,10 +2,6 @@
     "name": "root",
     "private": true,
     "scripts": {
-        "start": "./node_modules/.bin/lerna run start",
-        "build": "./node_modules/.bin/lerna run build --parallel",
-        "watch": "./node_modules/.bin/lerna run watch --parallel",
-        "bootstrap": "./node_modules/.bin/lerna bootstrap"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "latest",
@@ -13,7 +9,6 @@
         "eslint": "^6.2.0",
         "eslint-config-prettier": "^6.1.0",
         "eslint-plugin-prettier": "^3.1.0",
-        "lerna": "^3.16.4",
         "prettier": "1.18.2",
         "stylelint": "^10.1.0",
         "stylelint-config-prettier": "^5.2.0",
