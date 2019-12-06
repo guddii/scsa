@@ -2,11 +2,15 @@
   "name": "scsa",
   "version": "1.0.0",
   "dependencies": {
-    "concurrently": "^5.0.0",
     "npm-run-all": "^4.1.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guddii/scsa.git"
+  },
+  "license": "MIT",
   "scripts": {
-    "bootstrap": "node ./cli/bootstrap.js",
+    "bootstrap": "./.bootstrap/index.sh",
     "start": "run-p start:applications:* start:orchestrators:*",
     "start:applications:catalogue": "npm run start --prefix ./applications/catalogue/frontend",
     "start:applications:checkout": "npm run start --prefix ./applications/checkout/frontend",
