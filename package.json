@@ -1,18 +1,32 @@
 {
-    "name": "root",
-    "private": true,
-    "scripts": {
-    },
-    "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "latest",
-        "@typescript-eslint/parser": "latest",
-        "eslint": "^6.2.0",
-        "eslint-config-prettier": "^6.1.0",
-        "eslint-plugin-prettier": "^3.1.0",
-        "prettier": "1.18.2",
-        "stylelint": "^10.1.0",
-        "stylelint-config-prettier": "^5.2.0",
-        "stylelint-config-standard": "^18.3.0",
-        "stylelint-prettier": "^1.1.1"
-    }
+  "name": "scsa",
+  "version": "1.0.0",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "bootstrap": "node ./cli/bootstrap.js",
+    "start": "run-p start:applications:* start:orchestrators:*",
+    "start:applications:catalogue": "npm run start --prefix ./applications/catalogue/frontend",
+    "start:applications:checkout": "npm run start --prefix ./applications/checkout/frontend",
+    "start:applications:sales": "npm run start --prefix ./applications/sales/frontend",
+    "start:orchestrators:compoxure": "npm run start --prefix ./orchestrators/compoxure/frontend",
+    "start:orchestrators:iframe": "npm run start --prefix ./orchestrators/iframe/frontend",
+    "start:orchestrators:webcomponent": "npm run start --prefix ./orchestrators/webcomponent/frontend",
+    "watch": "run-p watch:applications:* watch:orchestrators:*",
+    "watch:applications:catalogue": "npm run watch --prefix ./applications/catalogue/frontend",
+    "watch:applications:checkout": "npm run watch --prefix ./applications/checkout/frontend",
+    "watch:applications:sales": "npm run watch --prefix ./applications/sales/frontend",
+    "watch:orchestrators:compoxure": "npm run watch --prefix ./orchestrators/compoxure/frontend",
+    "watch:orchestrators:iframe": "npm run watch --prefix ./orchestrators/iframe/frontend",
+    "watch:orchestrators:webcomponent": "npm run watch --prefix ./orchestrators/webcomponent/frontend",
+    "build": "run-p build:applications:* build:orchestrators:*",
+    "build:applications:catalogue": "npm run build --prefix ./applications/catalogue/frontend",
+    "build:applications:checkout": "npm run build --prefix ./applications/checkout/frontend",
+    "build:applications:sales": "npm run build --prefix ./applications/sales/frontend",
+    "build:orchestrators:compoxure": "npm run build --prefix ./orchestrators/compoxure/frontend",
+    "build:orchestrators:iframe": "npm run build --prefix ./orchestrators/iframe/frontend",
+    "build:orchestrators:webcomponent": "npm run build --prefix ./orchestrators/webcomponent/frontend"
+  }
 }

@@ -1,3 +1,4 @@
+# Applications
 [submodule "applications/catalogue"]
 	path = applications/catalogue
 	url = https://github.com/guddii/scsa-app-catalogue
@@ -7,13 +8,21 @@
 [submodule "applications/sales"]
 	path = applications/sales
 	url = https://github.com/guddii/scsa-app-sales
+# Configurations
+[submodule "configurations/global"]
+	path = configurations/global
+	url = https://github.com/guddii/scsa-cfg-global.git
+[submodule "configurations/build"]
+	path = configurations/build
+	url = https://github.com/guddii/scsa-cfg-build.git
+# Libraries
 [submodule "libraries/messaging"]
 	path = libraries/messaging
 	url = https://github.com/guddii/scsa-lib-messaging
 [submodule "libraries/styling"]
 	path = libraries/styling
 	url = https://github.com/guddii/scsa-lib-styling
-
+# Orchestrators
 [submodule "orchestrators/compoxure"]
 	path = orchestrators/compoxure
 	url = https://github.com/guddii/scsa-orc-compoxure

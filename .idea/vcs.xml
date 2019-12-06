@@ -2,11 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/applications/account" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/applications/catalogue" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/applications/checkout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/applications/sales" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configurations/build" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configurations/global" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/libraries/messaging" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/libraries/styles" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/orchestrator/iframe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libraries/styling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/orchestrators/compoxure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/orchestrators/iframe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/orchestrators/webcomponent" vcs="Git" />
   </component>
 </project>
