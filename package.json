@@ -1,16 +1,21 @@
 {
   "name": "scsa",
-  "version": "1.0.0",
-  "dependencies": {
-    "npm-run-all": "^4.1.5"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guddii/scsa.git"
   },
-  "license": "MIT",
+  "version": "1.0.0",
   "scripts": {
     "bootstrap": "./.bootstrap/index.sh",
+    "build": "run-p build:applications:* build:orchestrators:*",
+    "build:applications:catalogue": "npm run build --prefix ./applications/catalogue/frontend",
+    "build:applications:checkout": "npm run build --prefix ./applications/checkout/frontend",
+    "build:applications:sales": "npm run build --prefix ./applications/sales/frontend",
+    "build:orchestrators:compoxure": "npm run build --prefix ./orchestrators/compoxure/frontend",
+    "build:orchestrators:iframe": "npm run build --prefix ./orchestrators/iframe/frontend",
+    "build:orchestrators:webcomponent": "npm run build --prefix ./orchestrators/webcomponent/frontend",
+    "link": "./.bootstrap/link/index.sh",
     "start": "run-p start:applications:* start:orchestrators:*",
     "start:applications:catalogue": "npm run start --prefix ./applications/catalogue/frontend",
     "start:applications:checkout": "npm run start --prefix ./applications/checkout/frontend",
@@ -24,13 +29,9 @@
     "watch:applications:sales": "npm run watch --prefix ./applications/sales/frontend",
     "watch:orchestrators:compoxure": "npm run watch --prefix ./orchestrators/compoxure/frontend",
     "watch:orchestrators:iframe": "npm run watch --prefix ./orchestrators/iframe/frontend",
-    "watch:orchestrators:webcomponent": "npm run watch --prefix ./orchestrators/webcomponent/frontend",
-    "build": "run-p build:applications:* build:orchestrators:*",
-    "build:applications:catalogue": "npm run build --prefix ./applications/catalogue/frontend",
-    "build:applications:checkout": "npm run build --prefix ./applications/checkout/frontend",
-    "build:applications:sales": "npm run build --prefix ./applications/sales/frontend",
-    "build:orchestrators:compoxure": "npm run build --prefix ./orchestrators/compoxure/frontend",
-    "build:orchestrators:iframe": "npm run build --prefix ./orchestrators/iframe/frontend",
-    "build:orchestrators:webcomponent": "npm run build --prefix ./orchestrators/webcomponent/frontend"
+    "watch:orchestrators:webcomponent": "npm run watch --prefix ./orchestrators/webcomponent/frontend"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }
