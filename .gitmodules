@@ -23,9 +23,6 @@
 	path = libraries/styling
 	url = https://github.com/guddii/scsa-lib-styling
 # Orchestrators
-[submodule "orchestrators/compoxure"]
-	path = orchestrators/compoxure
-	url = https://github.com/guddii/scsa-orc-compoxure
 [submodule "orchestrators/webcomponent"]
 	path = orchestrators/webcomponent
 	url = https://github.com/guddii/scsa-orc-webcomponent
