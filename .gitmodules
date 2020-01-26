@@ -29,3 +29,6 @@
 [submodule "orchestrators/iframe"]
 	path = orchestrators/iframe
 	url = https://github.com/guddii/scsa-orc-iframe
+[submodule "orchestrators/nodesi"]
+	path = orchestrators/nodesi
+	url = https://github.com/guddii/scsa-orc-nodesi.git
