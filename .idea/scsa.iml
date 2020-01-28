@@ -8,6 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$/applications/sales/frontend/dist" />
       <excludeFolder url="file://$MODULE_DIR$/orchestrators/compoxure/frontend/dist" />
       <excludeFolder url="file://$MODULE_DIR$/orchestrators/iframe/frontend/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/orchestrators/nodesi/frontend/dist" />
       <excludeFolder url="file://$MODULE_DIR$/orchestrators/webcomponent/frontend/dist" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />

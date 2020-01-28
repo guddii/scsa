@@ -19,6 +19,7 @@ chmod +x ./.bootstrap/**/*.sh
 
 In order to install all dependencies an symlinking the internal ones, enter the following lines.
 ```zsh
+npm install
 npm run bootstrap
 ```
 
