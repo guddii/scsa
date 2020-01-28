@@ -23,4 +23,4 @@ npm install
 npm run bootstrap
 ```
 
-Now you are free to run the applications in dev mode, by entering `npm run watch` or build the application by entering `npm run build && npm start`.
+Now you are free to build and run the applications by entering `npm run build && npm start`.
